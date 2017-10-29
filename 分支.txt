@@ -13,3 +13,11 @@ Creating a new branch is quick & simple.
 Creating a new branch is quick AND simple.
 >>>>>>> dev
 Creating a new branch is quick and simple.
+
+
+如果在合并分支的时候遇到了冲突 conflict 时 ，可以直接到文件中进行修改，然后再进行提交。
+查看分支的合并情况, 用带参数的git log：
+gti log --graph --pretty=oneline --abbrev-commit 
+
+在合并分支时，通常情况下，GIT会用fast forward模式(在没有冲突时，直接合并，但是在删除分支后，会丢掉分支的信息)
+可以禁用fast forward     用--no-ff 方式的git merge
