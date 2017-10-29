@@ -7,4 +7,9 @@
 查看当前分支：git branch  （前面带有* ，表示当前分支）
 合并某分支到当前分支：git merge "分支名" (把当前分支合并到master)？
 删除某分支：git branch -d  "分支名"
+<<<<<<< HEAD
 Creating a new branch is quick & simple.
+=======
+Creating a new branch is quick AND simple.
+>>>>>>> dev
+Creating a new branch is quick and simple.
