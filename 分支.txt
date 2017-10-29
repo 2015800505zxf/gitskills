@@ -1,0 +1,10 @@
+分支：
+主分支： master
+"一般项目的master分支都是稳定的代码，可以直接发布或被项目之外的人使用，新特性和BUG修改都是在不同的分支上进行开发和测试。这样规范了整个软件的开发流程，分支之间的互不影响这种特性可以增加团队的效率。GIT分支的另一个重要特性是可以合并不同仓库(fork)的分支"向主仓库提交merge request或是pull request"
+创建新分支： git branch "新分支名"
+切换分支： git checkout "想要切换到的分支名" ！！！
+上面两步骤合并： git checout -b "新分支名"
+查看当前分支：git branch  （前面带有* ，表示当前分支）
+合并某分支到当前分支：git merge "分支名" (把当前分支合并到master)？
+删除某分支：git branch -d  "分支名"
+Creating a new branch is quick & simple.
