@@ -1,0 +1,9 @@
+在本地有一个git仓库后，又想在github创建一个git仓库，并且让这两个仓库进行远程同步。
+1、登录github , create a new repository,  在repository name 一栏中写和本地仓库一样的名字。
+2、git remote add origin git@github.com:‘github的登录名’/仓库名.git
+  // 在本地关联自己的远程仓库
+3、把本地库的所有内容推送到远程库上
+git push -u origin master
+(第一次推送master分支，加上-u参数，git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master 分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令)
+
+在以后要把本地的内容推送到远程git push origin master 
