@@ -1,0 +1,3 @@
+自定义git:
+就讲了一个定义颜色：git config --global color.ui true
+会使某些部分变得显眼一些
