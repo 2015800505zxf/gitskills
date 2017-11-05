@@ -1,0 +1,18 @@
+“发布一个版本时，通常在版本库中打一个标签（tag），这样就唯一确定了打标签时刻的版本”。
+tag 是跟commit联系在一起的 ，它是指向某个commit标签，
+例如：commit号 和 版本号（tag号?）是指向同样的东西，但是commit号后面是一大串东西，tag号是由自己设定，可以很简短。
+创建标签：git tag v1.0 即可在当前分支当前时刻创建分支(标签是打在最新提交的commit上的)
+查看标签：git tag
+查看具体标签：git show 'tag_name'
+删除标签：git tag -d v1.0
+把具体标签推送到远程：git push origin 'tag_name'
+一次性推送全部标签：git push orign --tags !
+删除远程标签：1、先删除本地标签：git tag -d v1.0  ；2、远程删除：git push origin : refs/tags/'tag_name'
+
+
+如果想要打在以前提交的commit id 上的话，方法是：
+1、找到以前的commit id : git log --pretty=oneline --abbrev-commit
+2、git tag v1.0 'commit id'
+(注; 标签是按照字母排序的)
+
+https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001376951758572072ce1dc172b4178b910d31bc7521ee4000  PGP签名...没有认真看
