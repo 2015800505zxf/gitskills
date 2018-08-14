@@ -1,5 +1,5 @@
-1、输入git log 后 出现END标记 ：按 q 退出历史记录列
-表表
+1、输入git log 后 出现END标记 ：按 q 退出历史记录列表
+
 2、在关联远程仓库的时候，输入$ git remote add origin git@github.com:2015800505zxf/'仓库名'.git  --> 提示 remote origin already exist 
 解决办法： 
 1、先删除远程 Git 仓库
