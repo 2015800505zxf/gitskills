@@ -1,8 +1,8 @@
-1¡¢ÊäÈëgit log ºó ³öÏÖEND±ê¼Ç £º°´ q ÍË³öÀúÊ·¼ÇÂ¼ÁĞ±í
-
-2¡¢ÔÚ¹ØÁªÔ¶³Ì²Ö¿âµÄÊ±ºò£¬ÊäÈë$ git remote add origin git@github.com:2015800505zxf/'²Ö¿âÃû'.git  --> ÌáÊ¾ remote origin already exist 
-½â¾ö°ì·¨£º 
-1¡¢ÏÈÉ¾³ıÔ¶³Ì Git ²Ö¿â
+1ã€è¾“å…¥git log å å‡ºç°ENDæ ‡è®° ï¼šæŒ‰ q é€€å‡ºå†å²è®°å½•åˆ—
+è¡¨è¡¨
+2ã€åœ¨å…³è”è¿œç¨‹ä»“åº“çš„æ—¶å€™ï¼Œè¾“å…¥$ git remote add origin git@github.com:2015800505zxf/'ä»“åº“å'.git  --> æç¤º remote origin already exist 
+è§£å†³åŠæ³•ï¼š 
+1ã€å…ˆåˆ é™¤è¿œç¨‹ Git ä»“åº“
 $ git remote rm origin
-2¡¢ÔÙÌí¼ÓÔ¶³Ì Git ²Ö¿â
-$ git remote add origin git@github.com:2015800505zxf/'²Ö¿âÃû'.git
+2ã€å†æ·»åŠ è¿œç¨‹ Git ä»“åº“
+$ git remote add origin git@github.com:2015800505zxf/'ä»“åº“å'.git
