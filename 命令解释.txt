@@ -1,7 +1,7 @@
-git init：
+﻿git init：
 主要用来初始化一个空的git本地仓库。   和 github上面的仓库名字相同
 执行完上面的命令，当前目录下会自动生成.git隐藏文件夹，该隐藏文件夹就是git版本库
 
-git remote add https://github.com/gitskills.git  和远程库创建连接
+git remote add https://github.com/ddiamond/gitskills.git  和远程库创建连接
 
 git pull origin master   把远程库的master分支下面的文件给弄到本地

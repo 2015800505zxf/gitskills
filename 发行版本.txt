@@ -1,0 +1,5 @@
+当前的版本号 发布版本
+git tag -a v1.0
+
+把这个版本发布到线上
+git push --tags
